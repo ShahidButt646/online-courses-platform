@@ -270,12 +270,12 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
 .banner-container{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0rem;
+    margin-right: 0rem;
     max-width: 1320px;
     padding-top: 3.5rem;
     padding-bottom: 7.5rem;
@@ -618,7 +618,7 @@ body{
 .rtab-rpanel-row span .bi-star-fill{
     font-size: 0.6rem;
     margin: 0;
-    padding: 0px;
+    padding: 0rem;
     margin-right: 0.25rem;
 }
 
@@ -1280,7 +1280,7 @@ footer{
     
 }
 .footer2 a:first-child{
-    padding-left: 0px;
+    padding-left: 0rem;
 }
 
 
@@ -1309,7 +1309,7 @@ footer{
         max-width: 960px;
     }
     .banner-text{
-        padding: 0px;
+        padding: 0rem;
     }
     .banner-img img {
 
@@ -1420,26 +1420,17 @@ footer{
 
 }
 @media only screen and (max-width: 576px) {
-    
-    
     :root{
         --fs-heading: 2.50rem;
         --fs-para: 1.25rem
     }
-
     /* body */
-
-    
     body{
-        
         padding-left: 0rem;
-        padding-right: 0rem;
-        
+        padding-right: 0rem;   
     }
-
     /* Body Ends */
     /* Navbar */
-    
     .navbar-collapse{
         position: absolute;
         top: 3.125rem;
@@ -1447,7 +1438,6 @@ footer{
         left: 0;
         transition-duration: 0.3s;
         height: fit-content !important;
-        
     }
     .navbar-collapse ul{
         display: flex;
@@ -1455,8 +1445,6 @@ footer{
         align-items: start;
         padding-left: 0.625rem;
         padding-right: 0.625rem;
-        
-
     }
     .navbar-collapse ul li{
         width: 100%;
@@ -1464,7 +1452,6 @@ footer{
         border-bottom: 0.0625rem solid black;
         padding-top: 0.5rem;
         padding-bottom: 0rem;
-
     }
     .navbar-collapse ul li button{
         width: 100%;
@@ -1496,41 +1483,42 @@ footer{
     .bi-brightness-high-fill{
         margin-right: 0.4375rem;
     }
-
     /* Navbar ends */
     /* Banner */
-
     .banner {
         width: 100vw;
         box-sizing: border-box;
-              
     }
     .banner-text{
         padding-left: 0.75rem;
         padding-right: 0;
+    }
+    /* Review Tab */
+    .rtab-reviews-feedback{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .rtab-reviews-feedback button{
+        margin-left: 0rem;
 
     }
 
     /* Card Responsiveness */
-    
     .Cards{
         padding-left: 12px;
         padding-right: 12px;
         margin: auto;
     }
-
     .card{
         width: 100%;
         margin-top: 20px;
      }  
-
     /* for footer */
     #footer-container{
         background-color: #F1F5F9;
         padding: 0.5rem 3.9rem;
-        
         color: #475569;
-        
     }
     .footer1 {
         width: 100%;
@@ -1539,11 +1527,9 @@ footer{
         font-size: 0.875rem;
     }
     .footer2{
-
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        
         font-size: 0.875rem;
         font-weight: 100;
         padding-left: 1.5rem;
